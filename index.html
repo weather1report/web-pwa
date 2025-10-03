@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИМТ калькулятор</title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon_120.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon_180.png" />
+    <meta name="theme-color" content="#03a9f4" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    
+
+
+</head>
+<body>
+    <div class="content">
+        <div class="input-div">
+            <div>Ваш рост в см</div>
+            <input type="number" id="height">
+        </div>
+        <div class="input-div">
+            <div>Ваш вес в кг</div>
+            <input type="number" id="weight">
+        </div>
+        <div class="input-div">
+            <div>Ваш ИМТ</div>
+            <input type="number" readonly id="imt">
+        </div>
+
+        <div class="input-div">
+            <button id="btn">Посчитать ИМТ</button>
+        </div>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>

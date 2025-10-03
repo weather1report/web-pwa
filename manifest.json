@@ -1,0 +1,19 @@
+{
+    "name": "BMI calculater",
+    "short_name": "BMI",
+    "description": "You can calculate your BMI",
+    "theme_color": "#1e7fa9",
+    "background_color": "#5a0fc8",
+    "display": "standalone",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "icons/icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
