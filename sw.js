@@ -1,9 +1,10 @@
-const staticCacheName = 'site-static-v5'
+const staticCacheName = 'site-static-v6'
 const assets = [
     '.',
     'index.html',
     'app.js',
     'icons/icon_192.png',
+    'icons/icon_512.png',
     'icons/apple-touch-icon_180.png',
     'icons/apple-touch-icon_120.png',
     'style.css'
