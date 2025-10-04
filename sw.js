@@ -1,20 +1,17 @@
-const staticCacheName = 'site-static-v6'
+const staticCacheName = 'site-static-v7'
 const assets = [
     '.',
     'index.html',
     'app.js',
-    'icons/icon_192.png',
-    'icons/icon_512.png',
-    'icons/apple-touch-icon_180.png',
-    'icons/apple-touch-icon_120.png',
-    'style.css'
+    'style.css',
+    'icons/icon_192.png'
 ]
 
 self.addEventListener('install', evt => {
     evt.waitUntil(
         caches.open(staticCacheName).then((cache) => {
             console.log('Кэширование ресурсов')
-            cache.addAll(assets)
+            return cache.addAll(assets)
         })
     )
 })
